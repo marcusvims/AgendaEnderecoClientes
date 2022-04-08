@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.activity.FormularioClienteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Nome"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Telefone"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_cep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="CEP"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_logradouro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Logradouro"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Número"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_bairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Bairro"
+            android:inputType="textCapWords"/>
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_complemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Complemento"
+            android:inputType="textCapWords"/>
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_cidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Cidade"
+            android:inputType="textCapWords"/>
+
+        <EditText
+            android:id="@+id/activity_formulario_cliente_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Estado"
+            android:inputType="textCapWords"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

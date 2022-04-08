@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.ApresentaDadosCliente">
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_nome_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Nome:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_apresenta_cliente_nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_apresenta_cliente_nome" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/activity_apresenta_cliente_nome_titulo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_telefone_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Telefone:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_apresenta_cliente_telefone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_apresenta_cliente_telefone" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/activity_apresenta_cliente_telefone_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_nome" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_cep_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:text="CEP: "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_apresenta_cliente_cep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_apresenta_cliente_cep" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_cep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/activity_apresenta_cliente_cep_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_telefone" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_logradouro_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Logradouro: "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_cep" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_logradouro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_logradouro_titulo" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_numero_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Número: "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_apresenta_cliente_numero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_apresenta_cliente_numero" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/activity_apresenta_cliente_numero_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_logradouro" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_bairro_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Bairro:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_apresenta_cliente_bairro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_apresenta_cliente_bairro" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_bairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/activity_apresenta_cliente_bairro_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_numero" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_complemento_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Complemento:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_apresenta_cliente_complemento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_apresenta_cliente_complemento" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_complemento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/activity_apresenta_cliente_complemento_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_bairro" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_cidade_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Cidade:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_apresenta_cliente_cidade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_apresenta_cliente_cidade" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_cidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/activity_apresenta_cliente_cidade_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_complemento" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_estado_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Estado:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_apresenta_cliente_estado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_apresenta_cliente_estado" />
+
+    <TextView
+        android:id="@+id/activity_apresenta_cliente_estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/activity_apresenta_cliente_estado_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/activity_apresenta_cliente_cidade" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
